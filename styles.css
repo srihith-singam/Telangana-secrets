@@ -19,13 +19,14 @@ img {
 }
 
 .hero {
-    background-image: url("https://img.etimg.com/thumb/width-1200,height-900,imgsize-470204,resizemode-75,msid-84752055/magazines/panache/800-year-old-ramappa-temple-in-telangana-gets-the-unesco-w[...]
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url("https://images.unsplash.com/photo-1587474260584-136574528ed5?auto=format&fit=crop&w=1200&q=80");
     background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 720px;
     height: 343px;
 }
 
@@ -44,7 +45,6 @@ img {
 }
 .sites {
     background-color: #90EE90;
-    width: 720px;
     height: 343px;
     display: flex;
     flex-direction: column;
@@ -54,9 +54,12 @@ img {
 .sitelist {
     display: flex;
     font-size: 16px;
+    display: flex;
+    justify-content: center;
 }
 .site {
     margin: 10px 20px;
+    width: 200px;
 }
 .visatemple {
     height: 75px;
@@ -65,7 +68,6 @@ img {
     font-weight: bold;
 }
 .guide {
-    width: 720px;
     height: 394px;
     display: flex;
     flex-direction: column;
