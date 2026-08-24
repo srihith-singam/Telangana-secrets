@@ -1,0 +1,93 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+--saffron:          #FF9933;
+--white:            #FFFFFF;
+--light-green:      #90EE90;
+--navy-blue:        #000080;
+--saffron-light:    #FFC285;
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font: Arial;
+    color: white;
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    background-image: url("https://img.etimg.com/thumb/width-1200,height-900,imgsize-470204,resizemode-75,msid-84752055/magazines/panache/800-year-old-ramappa-temple-in-telangana-gets-the-unesco-world-heritage-site-tag.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+    height: 343px;
+}
+
+.visittel {
+    background-color: #FF9933;
+    font-size: 32px;
+    border-radius: 10px;
+    width: 225px;
+}
+.enjoytel {
+    background-color: #FFC285;
+    font-size: 19px;
+    border-radius: 5px;
+    width: 412px;
+    padding: 5px 0px;
+}
+.sites {
+    background-color: #90EE90;
+    width: 720px;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+}
+.sitelist {
+    display: flex;
+    font-size: 16px;
+}
+.site {
+    margin: 10px 20px;
+}
+.visatemple {
+    height: 75px;
+}
+.tbold {
+    font-weight: bold;
+}
+.guide {
+    width: 720px;
+    height: 394px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.guidecard {
+    display: flex;
+    height: 294px;
+    background-color: #303080;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+.face {
+    width: 249px;
+    border-radius: 10px;
+    height: 249px;
+    margin: 10px;
+}
+
+.italic {
+    font-style: italic;
+}
