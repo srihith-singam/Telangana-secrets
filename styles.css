@@ -19,7 +19,7 @@ img {
 }
 
 .hero {
-    background-image: url("https://img.etimg.com/thumb/width-1200,height-900,imgsize-470204,resizemode-75,msid-84752055/magazines/panache/800-year-old-ramappa-temple-in-telangana-gets-the-unesco-world-heritage-site-tag.jpg");
+    background-image: url("https://img.etimg.com/thumb/width-1200,height-900,imgsize-470204,resizemode-75,msid-84752055/magazines/panache/800-year-old-ramappa-temple-in-telangana-gets-the-unesco-w[...]
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -90,4 +90,15 @@ img {
 
 .italic {
     font-style: italic;
+}
+
+/* Simple hover effect for site images */
+.site img {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    border-radius: 8px;
+}
+
+.site img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
 }
