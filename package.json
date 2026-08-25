@@ -1,6 +1,7 @@
 {
-  "name": "Scrim-s0j8jbt11u",
-  "description": "https://scrimba.com/s0j8jbt11u/head",
+  "name": "telangana-secrets",
+  "description": "A short field guide to lesser-known places in Telangana, India.",
+  "type": "module",
   "scripts": {
     "start": "vite",
     "dev": "vite",
@@ -8,7 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vite": "latest"
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/inter": "^5.3.0",
+    "canvas-confetti": "^1.9.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "vite": "^7.1.3"
+  }
 }
